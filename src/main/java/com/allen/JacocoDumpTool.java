@@ -41,7 +41,7 @@ public class JacocoDumpTool {
             parser.printUsage(System.err);
             System.out.println();
             System.err.println("Example: ");
-            System.err.println("  java -jar dumptool.jar -a 127.0.0.1 -p 4345 -t 1000");
+            System.err.println("  java -jar JacocoDumpTool.jar -a 127.0.0.1 -p 4345 -t 1000");
             return 1;
         }
     }
